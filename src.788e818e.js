@@ -22,4 +22,4 @@ var e;!function(t,o){"object"==typeof exports&&"object"==typeof module?module.ex
 },{"matter-js":"KGTz","./engine":"qQ45","./constants":"p3SI"}],"H99C":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.render=void 0;var e=require("matter-js");require("./styles.css");var r=require("./engine"),i=require("./constants");require("./player"),require("./walls");var n=!1,o=e.Render.create({element:document.body,engine:r.engine,options:{height:i.HEIGHT,width:i.WIDTH,pixelRatio:1,background:"#222",wireframeBackground:"#222",enabled:!0,wireframes:n,showVelocity:n,showAngleIndicator:n,showCollisions:n,showBroadphase:n}});exports.render=o,e.Render.run(o);
 },{"matter-js":"KGTz","./styles.css":"D9Nj","./engine":"qQ45","./constants":"p3SI","./player":"KcYi","./walls":"Ws0w"}]},{},["H99C"], null)
-//# sourceMappingURL=joguinho/src.788e818e.js.map
+//# sourceMappingURL=src.788e818e.js.map
