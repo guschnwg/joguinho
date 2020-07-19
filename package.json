@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "rm -rf ./dist && parcel build index.html && cp -R assets ./dist",
+    "build": "rm -rf ./dist && parcel build index.html --public-url . && cp -R assets ./dist",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
